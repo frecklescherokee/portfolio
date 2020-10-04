@@ -1,0 +1,26 @@
+:root {
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2;
+  }
+  
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  body {
+
+  }
+
+  header {
+
+  }
+
+  /* Hero style start */
+  .hero {
+        background-image: url("../images/hero.jpg");
+        height: 600px;
+        padding: 60px;
+  }
