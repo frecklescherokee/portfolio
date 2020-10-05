@@ -70,9 +70,11 @@
 
   /* Hero style start */
   .hero {
-        background-image: url("../images/hero.jpg");
-        height: 600px;
+        background-image: url("../images/hero-bg.png");
+        height: 400px;
         padding: 60px;
+        background-repeat: no-repeat;
+        background-position: center;
   }
 
   .sub {
@@ -83,7 +85,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    top: 500px;
+    top: 250px;
     right: 0;
     position: absolute;
     background-color: var(--secondary-color);
