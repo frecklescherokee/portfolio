@@ -17,7 +17,7 @@
     }
 
     header {
-        padding: 20px 35px 20px 0;
+        padding: 10px 35px 10px 0;
         background-color: var(--secondary-color);
         display: flex;
         justify-content: space-between;
@@ -72,7 +72,7 @@
   .hero {
         background-image: url("../images/hero-bg.png");
         height: 400px;
-        padding: 60px;
+        padding: 50px;
         background-repeat: no-repeat;
         background-position: center;
   }
@@ -85,7 +85,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    top: 250px;
+    top: 290px;
     right: 0;
     position: absolute;
     background-color: var(--secondary-color);
