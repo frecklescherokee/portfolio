@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <title>Run Buddy</title>
+        <title>Mike Lewis</title>
         <link rel="stylesheet" href="./assets/css/style.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
@@ -16,21 +16,195 @@
             <!-- Navigation bar top right -->
             <nav>
                 <!-- unordered list -->
-                <ul>
+                <ul class="list">
                     <!-- Nav Bar List Item Elements -->
                     <li>
-                        <a href="#about-me">About Me</a>
+                        <div class="link">
+                            <a href="#about-me" class="header-anchor">About Me</a>
+                        </div>
                     </li>
                     <li>
-                        <a href="#work">Work</a>
+                        <div class="link">
+                            <a href="#work"class="header-anchor">Work</a>
+                        </div>
                     </li>
                     <li>
-                        <a href="#contact-me">Contact Me</a>
+                        <div class="link">
+                            <a href="#contact-me" class="header-anchor">Contact Me</a>
+                        </div>
                     </li>
                     <li>
-                        <a href="#resume">Resume</a>
+                        <div class="link">
+                            <a href="#resume" class="header-anchor">Resume</a>
+                        </div>
                     </li>
                 </ul>
             </nav>
         </header>
+
+        <!-- Hero / Jumbotron -->
+        <section class="hero">
+            <!-- subtitle container -->
+            <div class="hero-subtitle">
+                <h2>Insanely Curious</h2>
+            </div>
+        </section>
+
+        <!-- Content Grid Wrapper -->
+        <div class="content-grid-wrapper">
+            <div class="content-grid-container">
+        
+                <!-- About Me Section -->
+                
+                    <div id="about-me" class="content-grid-item grid-head">
+                        <h2 class="section title">About Me</h2>
+                    </div>
+                    <div class="content-grid-item">
+                        <p>
+                            The above picture is clearly not me, but the tagline "insanely curious" does apply.  I like to 
+                            learn and have many interests, which has led me to a very unique educational and career path.
+                            I started out pre-med on a national merit scholarship, but lost the scholarship the first
+                            year due to lack of discipline and no real grown-up skills.  I then joined the navy nuclear
+                            program and operated nuclear reactors for 6 years from 1999-2005 similar to Homer Simpson, except
+                            on an aircraft carrier (USS Carl Vinson).
+                            <br>
+                            <br>
+                            After the Navy, I started a construction company in New Orleans following Hurricane Katrina with a 
+                            few friends, during which time I earned a Residential Homebuilder License.  After about a 
+                            year, New Orleans was mainly put back together and I wanted a more steady job with health benefits
+                            so I took a job at Samsung Austin Semiconductor as an equipment technician, where I currently 
+                            still work.  I chose night shift so I could go to college during the day and pursued a microbiology
+                            degree at the University of Texas on a path towards becoming a pharmacist/pharmaceutical researcher.
+                            <br>
+                            <br>
+                            However, during my studies, I transitioned to an engineer role (despite my lack of a degree) and found
+                            I enjoyed that much more than microbiology.  I thus completed my degree in microbiology only to then
+                            assume the official title of Engineer II at Samsung.  1 year later, I transferred to the IT / Systems
+                            department as a software architect and quickly transitioned into management.  Having taken some online
+                            computer science classes at Harvard, I was accepted at Georgia Tech for a 
+                            master's degree in computer science with a specialization in machine learning, where I am still enrolled.
+                            <br>
+                            <br>
+                            I am now the manager of Software Architecture, UX / UI Design and Full Stack Development and have been in management
+                            for roughly 3 years.  Although I love the intense problem solving that comes with 
+                            working as an individual contributor, I feel that management, particularly in the field
+                            of computer science, is my true calling.  Upon completion of this bootcamp, I will redouble my efforts at Georgia Tech 
+                            and hope to graduate in 2022.                     
+                        </p>
+                        
+                    </div>
+                
+
+                <!-- Work Section -->
+                
+                    <div id="work" class="content-grid-item grid-head">
+                        <h2 class="section title">Work</h2>
+                    </div>
+                    <div class="content-grid-item work-grid-wrapper">
+                        <div class="work-grid-container">
+                            <!-- Surf Report-->
+                            <div class="work-grid-item surf">
+                                <a href="https://frecklescherokee.github.io/run-buddy/">
+                                    <img src="../images/surf-report-pic.png" alt="surf report website" style="visibility: hidden"/>
+                                </a>
+                                <div class="work-description-container">
+                                    <h3>
+                                        Surf Report
+                                    </h3>
+                                    <p>
+                                        MERN Stack
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- LED Wall -->
+                            <div class="work-grid-item led">
+                                <a href="https://frecklescherokee.github.io/run-buddy/">
+                                    <img src="../images/LED-wall.png" alt="LED Wall website" style="visibility: hidden"/>
+                                </a>
+                                <div class="work-description-container">
+                                    <h3>
+                                        LED Wall
+                                    </h3>
+                                    <p>
+                                        Node / IoT
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Calculator -->
+                            <div class="work-grid-item calculator">
+                                <a href="https://frecklescherokee.github.io/run-buddy/">
+                                    <img src="../images/abacus.png" alt="calculator website" style="visibility: hidden"/>
+                                </a>
+                                <div class="work-description-container">
+                                    <h3>
+                                        Calculator
+                                    </h3>
+                                    <p>
+                                        React / JavaScript / CSS
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Pastel Puzzles -->
+                            <div class="work-grid-item pastel">
+                                <a href="https://frecklescherokee.github.io/run-buddy/">
+                                    <img src="../images/pastel.png" alt="pastel website" style="visibility: hidden"/>
+                                </a>
+                                <div class="work-description-container">
+                                    <h3>
+                                        Pastel Puzzles
+                                    </h3>
+                                    <p>
+                                        MERN Stack
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Run Buddy -->
+                            <div class="work-grid-item run-buddy">
+                                <a href="https://frecklescherokee.github.io/run-buddy/">
+                                    <img src="../images/run-buddy.png" alt="run buddy website" style="visibility: hidden"/>
+                                </a>
+                                <div class="work-description-container">
+                                    <h3>
+                                        Run Buddy
+                                    </h3>
+                                    <p>
+                                        HTML / CSS
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+
+                <!-- Contact Me Section -->
+               
+                    <div id="contact-me" class="content-grid-item grid-head">
+                        <h2 class="section title">Contact Me</h2>
+                    </div>
+
+                    <!-- Navigation bar page bottom -->
+                    <nav class="content-grid-item contact-nav">
+                        <!-- unordered list -->
+                        <ul>
+                            <!-- Nav Bar List Item Elements -->
+                            <li>
+                                <a href="/">867-5309</a>
+                            </li>
+                            <li>
+                                <a href="/">https://frecklescherokee.github.io/portfolio/</a>
+                            </li>
+                            <li>
+                                <a href="/">Github</a>
+                            </li>
+                            <li>
+                                <a href="/">MySpace</a>
+                            </li>
+                            <li>
+                                <a href="/">Tinder</a>
+                            </li>
+                        </ul>
+                    </nav>
+                
+            </div>
+        </div>
     </body>
