@@ -15,6 +15,7 @@
         font-family: Helvetica, Arial, sans-serif;
     }
 
+    /* Header Style */
     header {
         padding: 10px 35px 10px 0;
         background-color: var(--secondary-color);
@@ -36,7 +37,7 @@
         background-color: var(--tertiary-color);
         color: var(--secondary-color);
         text-decoration: none;
-        padding: 8px 10px 0 50px;
+        padding: 0 10px 0 50px;
         display:flex;
         align-items: center;
     }
@@ -76,7 +77,6 @@
 
   .hero-subtitle {
       position: relative;
-      
   }
 
   .hero-subtitle h2 {
@@ -102,11 +102,9 @@
       width: 100%;
       display: grid;
       grid-template-columns: 1fr 3fr;
-      
   }
 
   .content-grid-item {
-      
       padding: 10px;
       margin: 10px;
   }
@@ -158,11 +156,9 @@
 
   .surf {
         display: grid;
-        
         background-image: url("../images/surf-report-pic.png");
         background-repeat: no-repeat;
         background-position: center;
-        
   }
 
   .led {
@@ -201,14 +197,8 @@
     height: 210px;
   }
 
-  .run-buddy a {
-
-  }
-
-
-
-  /* Contact Me Area */
-  .contact-nav ul {
+/* Contact Me Area */
+.contact-nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -234,8 +224,15 @@
     }
   
     header h1 {
-      width: 100%;
-      text-align: center;
+        display: flex;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        padding: unset;
+    }
+
+    header h1 a {
+        padding-right: 50px;
     }
   
     header nav ul {
@@ -247,90 +244,26 @@
     header nav ul li a {
       font-size: 20px;
     }
-  
-    footer h2, footer div {
-      text-align: center;
-      width: 100%;
-    }
-  
-    .hero-cta, .hero-form {
-      width: 100%;
-    }
-  
-    .hero-cta {
-      text-align: center;
-    }
-  
-    .section-title {
-      width: 80%;
-    }
-  
-    .trainer {
-      flex: 0 70%;
-    }
-  
-    .contact-info iframe {
-      flex: 1 100%;
-    }
-  
+}
     
-  
-  }
-  
   /* Media Query for tablets and smaller */
   @media screen and (max-width: 768px) {
   
-    section {
-      padding: 30px 15px;
+    .hero {
+        background-size: 100%;
+        background-position-y: -30px;
+        height: 280px;
     }
-  
-    .step h3 {
-      flex: 1 100%;
-      text-align: center;
+
+    .hero-subtitle h2 {
+        top: 170px;
+        left: 0;
+        right: unset;
     }
-  
-    .step-info {
-      flex: 2 100%;
-      text-align: center;
-      justify-content: center;
-    }
-  
-    .step-img {
-      flex: 0 32%;
-      margin-right: 0;
-      margin-top: 15px;
-      margin-bottom: 15px;
-    }
-  
-    .step-text {
-      flex: 100%;  
-    }
-  
-    .service-grid-container {
-      grid-template-columns: 1fr 1fr;
-    }
-  
-    .service-grid-item.basic {
-      grid-column: 1;
-    }
-  
-    .service-grid-item.both {
-      grid-column: 1 / -1;
-    }
-  
-    .service-grid-item.cancel {
-      transform: none;
-      writing-mode: unset;
-      grid-column: 1 / -1;
-      grid-row: -1;
-    }
-  
-    .trainer-img h3, .trainer-img h4, .trainer-img::after {
-      display: none;
-    }
-  
-    .trainer-bio h3, .trainer-bio h4 {
-      display: block;
+
+    .contact-nav ul a,  .work-description-container h3, 
+    .work-description-container p {
+        font-size: 13px;
     }
   
   }
@@ -338,31 +271,17 @@
   /* Media query for mobile phones and smaller */
   @media screen and (max-width: 575px) {
   
-    .hero-form button {
-      width: 100%;
+    .hero-subtitle h2 {
+        top: 90px;
+        font-size: 20px;
     }
-  
-    .section-title {
-      width: 95%;
+
+    .hero {
+        height: 200px;
     }
-  
-    .intro p {
-      width: 100%;
-    }
-  
-    .trainer {
-      flex: 0 100%;
-    }
-  
-    .contact-info {
-      text-align: center;
-    }
-  
-    .contact-info > * {
-      flex: 0 100%;
-    }
-  
-    .contact-form {
-      order: 3;
+
+    .contact-nav ul a,  .work-description-container h3, 
+    .work-description-container p {
+        font-size: 10px;
     }
   }
