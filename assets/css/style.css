@@ -182,7 +182,7 @@
 
     .pastel {
         display: grid;
-        background-image: url("../images/pastel.jpg");
+        background-image: url("../images/violin.png");
         background-repeat: no-repeat;
         background-position: center;
         grid-column: 1/2;
